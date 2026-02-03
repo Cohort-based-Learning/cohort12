@@ -1,0 +1,116 @@
+(cohort12) C:\Users\301\Desktop\cohort12\day11-timetravel>python example.py
+
+
+ ## 초기 실행 결과 ##
+**생성된 주제: # 개발자 농담 프
+**작성된 농담: # 개발자 농담 프
+**농담 평가: # 이 농담의 재미  
+
+
+ ## 체크포인트 히스토리 ##     
+
+ 0. 다음 실행 노드: ()
+체크포인트 ID: 1f0fdb49-5ad2-606a-8003-267a6988ffab
+
+raw: StateSnapshot(values={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었
+기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)', 'joke': '# 개발자 농담\n\n프로그래머가 아들에게 말했다:\n"아들아, 밖에 비가 오면 우산을 가져가고, 비가 안 오면 그냥 가."\n\n아들이 물었다:\n"아빠, 그럼  
+흐린 날씨는?"\n\n아버지가 대답했다:\n"그건 null 값이니까 고려하지 말아."\n\n---\n\n(null 포인터 예외를 이용한 농담입니다!)', 'evaluation': '# 이 농담의 재미 분석\n\n## 강점\n\n**1. 개발자 특화 유머**\n- null 값 처리는  
+프로그래머들이 실제로 겪는 고질적인 문제\n- "null을 무시한다"는 발상이 현실의 버그 원인을 풍자함\n\n**2. 이중 의미의 활용**\n- 프로그래밍 개념(null)을 일상 상황에 적용\n- 부모의 무책임한 조언으로 읽히는 반전\n\n**3. 간 
+결한 구성**\n- 짧고 명확한 구조로 빠른 이해 가능\n- 오チ가 명확함\n\n## 약점\n\n**1. 타겟 제한적**\n- 프로그래밍을 모르면 웃음이 반감\n- 개발자 커뮤니티 내에서만 통용되는 내부 농담\n\n**2. 예측 가능성**\n- "null"이 나올
+ 것을 어느 정도 예상 가능\n- 반전의 충격이 약함\n\n**3. 도덕적 불편함**\n- 아버지가 아들을 무시하는 설정이 약간 불편할 수 있음\n\n## 종합 평가\n\n**개발자 커뮤니티 내에서는 7/10** - 공감과 웃음이 동시에 나오는 좋은 내부
+ 농담\n\n**일반인 대상으로는 4/10** - 기술 지식이 필수라 접근성이 낮음'}, next=(), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-5ad2-606a-8003-267a6988ffab'}}, metadata={'source': 'loop', 'step': 3, 'parents': {}}, created_at='2026-01-30T08:20:49.557719+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-2167-639b-8002-21962cc92058'}}, tasks=(), interrupts=())
+
+ 1. 다음 실행 노드: ('evaluate_joke',)
+체크포인트 ID: 1f0fdb49-2167-639b-8002-21962cc92058
+
+raw: StateSnapshot(values={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었
+기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)', 'joke': '# 개발자 농담\n\n프로그래머가 아들에게 말했다:\n"아들아, 밖에 비가 오면 우산을 가져가고, 비가 안 오면 그냥 가."\n\n아들이 물었다:\n"아빠, 그럼  
+흐린 날씨는?"\n\n아버지가 대답했다:\n"그건 null 값이니까 고려하지 말아."\n\n---\n\n(null 포인터 예외를 이용한 농담입니다!)'}, next=('evaluate_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-2167-639b-8002-21962cc92058'}}, metadata={'source': 'loop', 'step': 2, 'parents': {}}, created_at='2026-01-30T08:20:43.537090+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-0be1-6b16-8001-ad0c7776b216'}}, tasks=(PregelTask(id='3b02bcf3-e0f0-a3bf-cbcd-4f3c1f7df152', name='evaluate_joke', path=('__pregel_pull', 'evaluate_joke'), error=None, interrupts=(), state=None, result={'evaluation': '# 이 농담의 재미 분석\n\n## 강점\n\n**1. 개발자 특화 유머**\n- null 값 처리는 프로그래머들이 실제로 겪는 고질적인 
+문제\n- "null을 무시한다"는 발상이 현실의 버그 원인을 풍자함\n\n**2. 이중 의미의 활용**\n- 프로그래밍 개념(null)을 일상 상황에 적용\n- 부모의 무책임한 조언으로 읽히는 반전\n\n**3. 간결한 구성**\n- 짧고 명확한 구조로 빠 
+른 이해 가능\n- 오チ가 명확함\n\n## 약점\n\n**1. 타겟 제한적**\n- 프로그래밍을 모르면 웃음이 반감\n- 개발자 커뮤니티 내에서만 통용되는 내부 농담\n\n**2. 예측 가능성**\n- "null"이 나올 것을 어느 정도 예상 가능\n- 반전의 
+충격이 약함\n\n**3. 도덕적 불편함**\n- 아버지가 아들을 무시하는 설정이 약간 불편할 수 있음\n\n## 종합 평가\n\n**개발자 커뮤니티 내에서는 7/10** - 공감과 웃음이 동시에 나오는 좋은 내부 농담\n\n**일반인 대상으로는 4/10** 
+- 기술 지식이 필수라 접근성이 낮음'}),), interrupts=())
+
+ 2. 다음 실행 노드: ('write_joke',)
+체크포인트 ID: 1f0fdb49-0be1-6b16-8001-ad0c7776b216
+
+raw: StateSnapshot(values={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었
+기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)'}, next=('write_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-0be1-6b16-8001-ad0c7776b216'}}, metadata={'source': 'loop', 'step': 1, 'parents': {}}, created_at='2026-01-30T08:20:41.280386+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f24b-6d0e-8000-f6edc70d6a3e'}}, tasks=(PregelTask(id='5b4ab8bc-aa58-71b2-e57d-31f50084f94b', name='write_joke', path=('__pregel_pull', 'write_joke'), error=None, interrupts=(), state=None, result={'joke': '# 개발자 농담\n\n프로그래머가 아들에게 말했다:\n"아들아, 밖에 비가 오면 우산을 가져가고, 비가 안 오면 그냥 가."\n\n아들이 물었다:\n"아빠, 그럼 흐린 날씨는?"\n\n아버지가 대답했다:\n"그건 null 값이니까 고려하지 말아."\n\n---\n\n(null 포인터 예외를 이용한 농담입니다!)'}),), interrupts=())
+
+ 3. 다음 실행 노드: ('generate_topic',)
+체크포인트 ID: 1f0fdb48-f24b-6d0e-8000-f6edc70d6a3e
+
+raw: StateSnapshot(values={}, next=('generate_topic',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f24b-6d0e-8000-f6edc70d6a3e'}}, metadata={'source': 'loop', 'step': 0, 'parents': {}}, created_at='2026-01-30T08:20:38.597556+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f249-6107-bfff-f93337e21ced'}}, tasks=(PregelTask(id='9004ae9c-ff2c-d20b-0709-2e78a896ac25', name='generate_topic', path=('__pregel_pull', 'generate_topic'), error=None, interrupts=(), state=None, result={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)'}),), interrupts=())
+
+ 4. 다음 실행 노드: ('__start__',)
+체크포인트 ID: 1f0fdb48-f249-6107-bfff-f93337e21ced
+
+raw: StateSnapshot(values={}, next=('__start__',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f249-6107-bfff-f93337e21ced'}}, metadata={'source': 'input', 'step': -1, 'parents': {}}, created_at='2026-01-30T08:20:38.596429+00:00', parent_config=None, tasks=(PregelTask(id='fc94acf3-cb65-bf26-5939-eca65912d7ed', name='__start__', path=('__pregel_pull', '__start__'), error=None, interrupts=(), state=None, result={}),), interrupts=())
+
+
+ ## 선택된 과거 시점 (Time Travel) ## {'1f0fdb49-0be1-6b16-8001-ad0c7776b216'}
+다음 실행 노드: ('write_joke',)
+해당 시점의 상태값:
+{'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)'}
+
+새로운 설정: {'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-5b09-67e5-8002-37011e472be8'}}
+
+
+ ## 변경된 설정의 히스토리 ##
+[StateSnapshot(values={'topic': '닭'}, next=('write_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-5b09-67e5-8002-37011e472be8'}}, 
+metadata={'source': 'update', 'step': 2, 'parents': {}}, created_at='2026-01-30T08:20:49.580438+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-0be1-6b16-8001-ad0c7776b216'}}, tasks=(PregelTask(id='c4c331d7-c478-de50-3998-dafa38e61fbf', name='write_joke', path=('__pregel_pull', 'write_joke'), error=None, interrupts=(), state=None, result=None),), interrupts=())]
+
+
+ ## 변경된 주제로 재실행한 최종 결과 ##
+변경된 주제: 닭
+새로 작성된 농담:# 닭 농담 Q: 닭이 도로를 건넌
+농담 평가: # 닭 농담 재미 평가 ## 첫 번
+
+[StateSnapshot(values={'topic': '닭', 'joke': '# 닭 농담\n\nQ: 닭이 도로를 건넌 이유가 뭘까요?\n\nA: 반대편으로 가기 위해서요.\n\n---\n\nQ: 닭이 계란을 낳지 않으면 뭐라고 부를까요?\n\nA: 실패한 닭이죠.\n\n---\n\nQ: 닭과
+ 계란 중에 누가 먼저 나왔을까요?\n\nA: 닭이죠. 계란은 아직도 생각 중입니다.', 'evaluation': '# 닭 농담 재미 평가\n\n## 첫 번째 농담\n**재미도: 낮음**\n- 가장 유명한 클래식 농담으로, 이미 많이 알려져 있음\n- 예측 가능한 
+오チ로 놀라움이 없음\n- 다만 단순함과 순수함이 있어 입문용으로는 괜찮음\n\n## 두 번째 농담\n**재미도: 중간**\n- 닭을 의인화하여 약간의 풍자를 담음\n- "실패한 닭"이라는 표현이 약간의 위트를 제공\n- 하지만 논리적 비약이  
+있어 웃음이 크지 않음\n\n## 세 번째 농담\n**재미도: 중상**\n- 철학적 질문(닭과 계란 중 누가 먼저인가)을 활용\n- "계란은 아직도 생각 중"이라는 반전이 가장 창의적\n- 예상을 벗어나는 오치로 가장 웃음을 유발할 가능성이 높음
+\n\n## 종합 평가\n세 농담 모두 **가벼운 수준의 재미**를 제공합니다. 세 번째가 상대적으로 가장 창의적이며, 첫 번째는 너무 뻔해서 신선함이 떨어집니다.'}, 
+next=(), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-a063-6239-8004-db96662a445c'}}, metadata={'source': 'loop', 'step': 4, 'parents': {}}, created_at='2026-01-30T08:20:56.852332+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-6ff6-60a6-8003-83eddcaf3cb4'}}, tasks=(), interrupts=()), 
+
+StateSnapshot(values={'topic': '닭', 'joke': 
+'# 닭 농담\n\nQ: 닭이 도로를 건넌 이유가 뭘까요?\n\nA: 반대편으로 가기 위해서요.\n\n---\n\nQ: 닭이 계란을 낳지 않으면 뭐라고 부를까요?\n\nA: 실패한 닭이죠.\n\n---\n\nQ: 닭과 계란 중에 누가 먼저 나왔을까요?\n\nA: 닭이죠. 계란은 아직도 생각 중입니다.'}, 
+next=('evaluate_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-6ff6-60a6-8003-83eddcaf3cb4'}}, metadata={'source': 'loop', 'step': 3, 'parents': {}}, created_at='2026-01-30T08:20:51.774480+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-5b09-67e5-8002-37011e472be8'}}, tasks=(PregelTask(id='8bda876c-c9e7-cf37-8094-59a7213a0845', name='evaluate_joke', path=('__pregel_pull', 'evaluate_joke'), error=None, interrupts=(), state=None, result={'evaluation': '# 닭 농담 재미 평가\n\n## 첫 번째 농담\n**재미도: 낮음**\n- 가장 유명한 클래식 농담으로, 이미 많이 알려져 있음\n- 예측 가능한 오チ로 놀라움이 없음\n- 다만 단순함과 순수함이 있어 입문용으로는 괜찮음\n\n## 두 
+번째 농담\n**재미도: 중간**\n- 닭을 의인화하여 약간의 풍자를 담음\n- "실패한 닭"이라는 표현이 약간의 위트를 제공\n- 하지만 논리적 비약이 있어 웃음이 크지 않음\n\n## 세 번째 농담\n**재미도: 중상**\n- 철학적 질문(닭과 계 
+란 중 누가 먼저인가)을 활용\n- "계란은 아직도 생각 중"이라는 반전이 가장 창의적\n- 예상을 벗어나는 오치로 가장 웃음을 유발할 가능성이 높음\n\n## 종합 평가\n세 농담 모두 **가벼운 수준의 재미**를 제공합니다. 세 번째가 상 
+대적으로 가장 창의적이며, 첫 번째는 너무 뻔해서 신선함이 떨어집니다.'}),), interrupts=()), 
+
+StateSnapshot(values={'topic': '닭'}, 
+next=('write_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-5b09-67e5-8002-37011e472be8'}}, metadata={'source': 'update', 'step': 2, 'parents': {}}, created_at='2026-01-30T08:20:49.580438+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-0be1-6b16-8001-ad0c7776b216'}}, tasks=(PregelTask(id='c4c331d7-c478-de50-3998-dafa38e61fbf', name='write_joke', path=('__pregel_pull', 'write_joke'), error=None, interrupts=(), state=None, result={'joke': '# 닭 농담\n\nQ: 닭이 도로를 건넌 이유가 뭘까요?\n\nA: 반대편으로 가기 위해서요.\n\n---\n\nQ: 닭이 계란을 낳지 않으면 뭐라고 
+부를까요?\n\nA: 실패한 닭이죠.\n\n---\n\nQ: 닭과 계란 중에 누가 먼저 나왔을까요?\n\nA: 닭이죠. 계란은 아직도 생각 중입니다.'}),), interrupts=()), 
+
+StateSnapshot(values={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서
+ 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)', 'joke': '#  
+개발자 농담\n\n프로그래머가 아들에게 말했다:\n"아들아, 밖에 비가 오면 우산을 가져가고, 비가 안 오면 그냥 가."\n\n아들이 물었다:\n"아빠, 그럼 흐린 날씨는?"\n\n아버지가 대답했다:\n"그건 null 값이니까 고려하지 말아."\n\n---\n\n(null 포인터 예외를 이용한 농담입니다!)', 'evaluation': '# 이 농담의 재미 분석\n\n## 강점\n\n**1. 개발자 특화 유머**\n- null 값 처리는 프로그래머들이 실제로 겪는 고질적인 문제\n- "null을 무시한다"는 발상이 현실의  
+버그 원인을 풍자함\n\n**2. 이중 의미의 활용**\n- 프로그래밍 개념(null)을 일상 상황에 적용\n- 부모의 무책임한 조언으로 읽히는 반전\n\n**3. 간결한 구성**\n- 짧고 명확한 구조로 빠른 이해 가능\n- 오チ가 명확함\n\n## 약점\n\n**1. 타겟 제한적**\n- 프로그래밍을 모르면 웃음이 반감\n- 개발자 커뮤니티 내에서만 통용되는 내부 농담\n\n**2. 예측 가능성**\n- "null"이 나올 것을 어느 정도 예상 가능\n- 반전의 충격이 약함\n\n**3. 도덕적 불편함**\n- 아버
+지가 아들을 무시하는 설정이 약간 불편할 수 있음\n\n## 종합 평가\n\n**개발자 커뮤니티 내에서는 7/10** - 공감과 웃음이 동시에 나오는 좋은 내부 농담\n\n**일반인 대상으로는 4/10** - 기술 지식이 필수라 접근성이 낮음'}, 
+next=(), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-5ad2-606a-8003-267a6988ffab'}}, metadata={'source': 'loop', 'step': 3, 'parents': {}}, created_at='2026-01-30T08:20:49.557719+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-2167-639b-8002-21962cc92058'}}, tasks=(), interrupts=()), 
+
+
+StateSnapshot(values={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면
+ 계란이 있었기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)', 'joke': '# 개발자 농담\n\n프로그래머가 아들에게 말했다:\n"아들아, 밖에 비가 오면 우산을 가져가고, 비가 안 오면 그냥 가."\n\n아들이 물었다:\n"아빠, 그럼 흐린 날씨는?"\n\n아버지가 대답했다:\n"그건 null 값이니까 고려하지 말아."\n\n---\n\n(null 포인터 예외를 이용한 농담입니다!)'}, 
+ next=('evaluate_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-2167-639b-8002-21962cc92058'}}, metadata={'source': 'loop', 'step': 2, 'parents': {}}, created_at='2026-01-30T08:20:43.537090+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-0be1-6b16-8001-ad0c7776b216'}}, tasks=(PregelTask(id='3b02bcf3-e0f0-a3bf-cbcd-4f3c1f7df152', name='evaluate_joke', path=('__pregel_pull', 'evaluate_joke'), error=None, interrupts=(), state=None, result={'evaluation': '# 이 농담의 재미 분석\n\n## 강점\n\n**1. 개발자 특화 유머**\n- null 값 처리는 프로그래머들이 실제로 겪 
+는 고질적인 문제\n- "null을 무시한다"는 발상이 현실의 버그 원인을 풍자함\n\n**2. 이중 의미의 활용**\n- 프로그래밍 개념(null)을 일상 상황에 적용\n- 부모의 무책임한 조언으로 읽히는 반전\n\n**3. 간결한 구성**\n- 짧고 명확 
+한 구조로 빠른 이해 가능\n- 오チ가 명확함\n\n## 약점\n\n**1. 타겟 제한적**\n- 프로그래밍을 모르면 웃음이 반감\n- 개발자 커뮤니티 내에서만 통용되는 내부 농담\n\n**2. 예측 가능성**\n- "null"이 나올 것을 어느 정도 예상 가 
+능\n- 반전의 충격이 약함\n\n**3. 도덕적 불편함**\n- 아버지가 아들을 무시하는 설정이 약간 불편할 수 있음\n\n## 종합 평가\n\n**개발자 커뮤니티 내에서는 7/10** - 공감과 웃음이 동시에 나오는 좋은 내부 농담\n\n**일반인 대상 
+으로는 4/10** - 기술 지식이 필수라 접근성이 낮음'}),), interrupts=()), 
+
+
+StateSnapshot(values={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와
+."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)'}, 
+next=('write_joke',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb49-0be1-6b16-8001-ad0c7776b216'}}, metadata={'source': 'loop', 'step': 1, 'parents': {}}, created_at='2026-01-30T08:20:41.280386+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f24b-6d0e-8000-f6edc70d6a3e'}}, tasks=(PregelTask(id='5b4ab8bc-aa58-71b2-e57d-31f50084f94b', name='write_joke', path=('__pregel_pull', 'write_joke'), error=None, interrupts=(), state=None, result={'joke': '# 개발자 농담\n\n프로그래머가 아들에게 말했다:\n"아들아, 밖에 비가 오면 우산을 가져가고, 비가 안 오면 그냥 가."\n\n아들이 
+물었다:\n"아빠, 그럼 흐린 날씨는?"\n\n아버지가 대답했다:\n"그건 null 값이니까 고려하지 말아."\n\n---\n\n(null 포인터 예외를 이용한 농담입니다!)'}),), interrupts=()), 
+
+
+StateSnapshot(values={}, 
+next=('generate_topic',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f24b-6d0e-8000-f6edc70d6a3e'}}, metadata={'source': 'loop', 'step': 0, 'parents': {}}, created_at='2026-01-30T08:20:38.597556+00:00', parent_config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f249-6107-bfff-f93337e21ced'}}, tasks=(PregelTask(id='9004ae9c-ff2c-d20b-0709-2e78a896ac25', name='generate_topic', path=('__pregel_pull', 'generate_topic'), error=None, interrupts=(), state=None, result={'topic': '# 개발자 농담\n\n프로그래머가 집에 가면서 아내에게 
+말했다:\n"여보, 우유를 사오라고 했는데, 계란이 있으면 우유도 사와."\n\n아내가 돌아왔을 때 우유만 들고 왔다.\n\n왜냐하면 계란이 있었기 때문이다.\n\n---\n\n(if-else 문의 논리를 이용한 농담입니다!)'}),), interrupts=()), 
+
+
+StateSnapshot(values={}, 
+next=('__start__',), config={'configurable': {'thread_id': '4f089a5f-89a4-43a2-a8ff-dc534de21319', 'checkpoint_ns': '', 'checkpoint_id': '1f0fdb48-f249-6107-bfff-f93337e21ced'}}, metadata={'source': 'input', 'step': -1, 'parents': {}}, created_at='2026-01-30T08:20:38.596429+00:00', parent_config=None, tasks=(PregelTask(id='fc94acf3-cb65-bf26-5939-eca65912d7ed', name='__start__', path=('__pregel_pull', '__start__'), error=None, interrupts=(), state=None, result={}),), interrupts=())]

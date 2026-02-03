@@ -1,3 +1,5 @@
 .env
 path/
 idea-exploit/
+forms.db
+tool-approval.db
